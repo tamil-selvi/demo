@@ -1,0 +1,9 @@
+1. Added new repository to manage the jobs using ConcurrentQueue (default class) and ConcurrentList (thread safe collection ==>custom created)
+2. Added SortJobWorkerPool custom class to read and process the job from queue
+3. Controller action method: EnqueueJob ==>will add the job into ConcurrentQueue and ConcurrentList
+4. Controller action method: GetJobs ==> return all jobs from ConcurrentList		
+5. Controller action method: GetJob == return specified job from ConcurrentList
+
+
+
+
